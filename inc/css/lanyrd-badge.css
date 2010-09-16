@@ -1,0 +1,18 @@
+/****
+Lanyrd Badge
+http://github.com/lachlanhardy/lanyrd-badge
+20100516
+
+****/
+.lanyrd-badge {margin: 0 0 2em 0;}
+  .lanyrd-badge div.type {margin: 1em 0 2em 0;}
+    .lanyrd-badge div.type h2 {margin: 0 0 0.5em 0; text-transform: capitalize;}
+    .lanyrd-badge div.type h4,
+    .lanyrd-badge div.type p {margin: 0 0 0.5em 0;}
+    .lanyrd-badge div.type ul,
+    .lanyrd-badge div.type li {list-style-type: none; margin: 0; padding: 0;}
+    .lanyrd-badge div.type li {margin: 0 0 1em 0;}
+      .lanyrd-badge div.type li p {font-size: 0.8em;}
+      .lanyrd-badge div.type li img {vertical-align: bottom;}
+      .lanyrd-badge div.type p.date {background: #fff; color: #444;}
+    .lanyrd-badge p.pimpage {font-size: 0.8em;}
