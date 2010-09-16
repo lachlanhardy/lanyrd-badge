@@ -54,7 +54,7 @@
       </li>
       <li>
         <p>Include the lanyrd-badge.js file</p>
-        <pre><code>&lt;script src="inc/js/lanyrd-badge.js"&gt;&lt;/script&gt;</code></pre>
+        <pre><code>&lt;script src="http://lachlanhardy.github.com/lanyrd-badge/lanyrd-badge.js"&gt;&lt;/script&gt;</code></pre>
       </li>
       <li>
         <p>Include an HTML element with a class of 'lanyrd-badge'</p>
@@ -69,12 +69,19 @@
           </li>
           <li>Add an attribute of 'data-user' with a value equaling the Lanyrd username.</li>
         </ol>
-        <pre><code>&lt;div class="lanyrd-badge" data-type="attending speaking" data-user="tomcoates"&gt;&lt;p&gt;Lanyrd tracks my conferences&lt;/p&gt;&lt;/div&gt;</code></pre>
+        <pre><code>
+&lt;div class="lanyrd-badge" data-type="attending speaking" data-user="tomcoates"&gt;
+  &lt;p&gt;
+    &lt;a href="http://lanyrd.com/people/tomcoates" rel="me"&gt;
+      Lanyrd tracks my conferences
+    &lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;</code></pre>
       </li>
     </ol>
 
     <p>If you want some basic styling, include the lanyrd-badge.css file:</p>
-    <pre><code>&lt;link rel="stylesheet" href="lanyrd-badge.css" media="screen, projection" type="text/css"&gt;</code></pre>
+    <pre><code>&lt;link rel="stylesheet" href="http://lachlanhardy.github.com/lanyrd-badge/lanyrd-badge.css" media="screen, projection" type="text/css"&gt;</code></pre>
 
     <h2>License</h2>
     <p>Copyright (c) 2010 Lachlan Hardy</p>
