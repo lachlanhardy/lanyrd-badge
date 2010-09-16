@@ -12,3 +12,7 @@ To add to any page:
 
 You may also add the small CSS file:
 * Include the lanyrd-badge.css file
+
+
+# Copyright
+Copyright (c) 2010 Lachlan Hardy. See LICENSE for details.
