@@ -9,7 +9,7 @@ Note: This is a very brittle solution and is only worth trying until Lanyrd rele
 To add to any page:
 
 ### 1. Include jQuery
-    &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
 ### 2. Include the lanyrd-badge.js file
     &lt;script src="inc/js/lanyrd-badge.js"&gt;&lt;/script&gt;
