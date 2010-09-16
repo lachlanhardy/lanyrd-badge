@@ -1,5 +1,8 @@
 A jQuery badge for http://lanyrd.com
 
+Note: This is a very brittle solution. The badge screen scrapes the HTML from Lanyrd using YQL, so may break without warning if the HTML changes.
+
+
 To add to any page:
 * include jQuery
 * include the lanyrd-badge.js file
