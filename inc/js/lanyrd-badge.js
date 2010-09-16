@@ -3,7 +3,7 @@
         var $badge = $(this),
             type = $badge.attr("data-type").split(" "),
             xpath = "",
-            results = "";
+            content = "";
 
             $.each(type, function(index, value) {
               if (index !== 0){
@@ -16,12 +16,21 @@
 
           for (i = 0, ii = type.length - 1; i <= ii; i++) {
             var thisType = type[i],
-                heading = "<h2>" + thisType + "</h2>";
-            results = results + '<div class="type '+ thisType +'">' + heading + data.results[i] + "</div>";
-          }
+                heading = "<h2>" + thisType + "</h2>",
+                results = data.results[i];
 
-          $badge.append(results.replace(/="\//g, '="http://lanyrd.com/'));
-          $badge.append('<p class="pimpage"><a href="http://github.com/lachlanhardy/lanyrd-badge">Want your own Lanyrd badge?</a></p>');
+            if (results !== undefined) {
+              content = content + '<div class="type '+ thisType +'">' + heading + results + "</div>";
+            }
+          }
+          
+          if (content === "") {
+            content = "<p>I'm not currently listed for any conferences on Lanyrd.</p>"
+          } else {
+            content = content.replace(/="\//g, '="http://lanyrd.com/');
+          }
+          
+          $badge.append(content).append('<p class="pimpage"><a href="http://github.com/lachlanhardy/lanyrd-badge">Want your own Lanyrd badge?</a></p>');
         });
     });
 })();
