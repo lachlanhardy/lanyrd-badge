@@ -27,7 +27,7 @@ To add to any page:
       </p>
     </div>
 
-If you want some basic styling, include the lanyrd-badge.css file:
+### 4. If you want some basic styling, include the lanyrd-badge.css file:
     <link rel="stylesheet" href="http://lachlanhardy.github.com/lanyrd-badge/lanyrd-badge.css" media="screen, projection" type="text/css">
 
 ## Copyright
