@@ -1,4 +1,4 @@
-(function() {
+$(function() {
    $(".lanyrd-badge").each(function() {
         var $badge = $(this),
             type = $badge.attr("data-type").split(" "),
@@ -33,4 +33,4 @@
           $badge.append(content).append('<p class="pimpage"><a href="http://github.com/lachlanhardy/lanyrd-badge">Want your own Lanyrd badge?</a></p>');
         });
     });
-})();
+});
